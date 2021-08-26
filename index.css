@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    width: 80%;
+}
+
+select{
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    width: 80%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    color: #000;
+    padding: 30px;
+}
+
+.subtitle{
+    margin-top: 10px;
+}
+
+.content{
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    padding: 50px 0;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.form{
+    width: 100%;
+}
+
+.data{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.selection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+
+.name div{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    flex-direction: column;
+}
+
+.birthDate div{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.adress div{
+    display: flex;
+    width: 25%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact div{
+    display: flex;
+    width: 33%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#email{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+#email div{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#email div input{
+    width: 100%;
+}
+
+.identity div{
+    display: flex;
+    width: 33%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.car div{
+    display: flex;
+    width: 33%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.send{
+    width: 70%;
+    height: 40px;
+    background: transparent;
+    border: 2px solid green;
+    border-radius: 20px;
+    color: green;
+    font-size: 24px;
+    cursor: pointer;
+}
+
