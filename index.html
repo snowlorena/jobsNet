@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Projeto2.2.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Dados Pessoais</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">JobsNET</h1>
+        <p class="subtitle">Complete seu cadastro</p>
+    </div>
+
+    <section class="content">
+
+        <form class="data">
+            <h3>DADOS PESSOAIS</h3>
+            <div class="form">
+                <div class="selection name">
+                    <div>
+                        <label>Nome completo</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label>Cargo Pretendido</label>
+                        <input type="text" name="cargopretendido" id="cargopretendido">
+                    </div>
+                </div>
+                <hr>
+                <div class="selection birthDate">
+                    <div>
+                        <label for="data">Data de Nascimento</label>
+                        <input type="date" name="datadenascimento" id="datadenascimento">
+                    </div>
+                    <div>
+                        <label for="estadoCivil">Estado Civil</label>
+                        <select name="estadoCivil">
+                            <option selected>Selecione</option>
+                            <option value="solteiro">Solteirx</option>
+                            <option value="casado">Casadx</option>    
+                            <option value="uniao">União Estável</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="sexo">Sexo</label>
+                        <select name="sexo">
+                            <option selected>Selecione</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="masculino">Masculino</option>    
+                            <option value="naobinario">Não Binário</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                </div>
+                <hr>
+                <div class="selection adress">
+
+                    <div>
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco"/>
+                    </div>
+                    <div>
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro"/>
+                    </div>
+                    <div>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade"/>            
+                    </div>
+                    <div>
+                        <label for="cep">CEP</label>
+                        <input type="number" id="cep"/>
+                    </div>
+                </div>
+                <hr>
+                <div class="selection contact">
+                    <div>
+                        <label for="tel1">Telefone Fixo 1</label>
+                        <input type="tel" id="tel1"/>
+                    </div>
+                    <div>
+                        <label for="tel2">Telefone Fixo 2</label>
+                        <input type="tel" id="tel2"/>
+                    </div>
+                    <div>
+                        <label for="celular">Celular</label>
+                        <input type="tel" id="celular"/>
+                    </div>
+                </div>
+                <div id="email">
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email"/>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form class="data">
+            <h3 class="title">DOCUMENTOS</h3>
+            <div class="form">
+                <div class="selection identity">
+                    <div>
+                        <label for="identidade">Identidade</label>
+                        <input type="number" id="identidade"/>
+                    </div>
+                    <div>
+                        <label for="cpf">CPF</label>
+                        <input type="number" id="cpf"/>
+                    </div>
+                </div>
+                <div class="selection car">
+                    <div>
+                        <label for="possuiVeiculo">Possui Veiculo?</label>
+                        <select name="select">
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                            <option value="selecione" selected>Selecione</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="habilitacao">Habilitação</label>
+                        <input type="email" id="habilitacao"/>
+                    </div>            
+                </div>
+                <div class="selection">
+                    <button class="send">ENVIAR</button>
+                </div>
+            </div>
+        </form>
+    </section>  
+    
+</body>
+</html>
